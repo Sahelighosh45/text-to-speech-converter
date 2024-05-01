@@ -79,5 +79,42 @@ select{
     font-weight: 500;
     display: flex;
     justify-content: center;
+}
 
-  }
+@media (max-width: 562px) {
+    html {
+        font-size: 40%;
+    }
+
+    .hero{
+        text-align: center;
+    }
+
+    textarea {
+        width: 450px;
+        height: 200px;
+        font-size: 14px;
+    }
+
+    select{
+        height: 28px;
+        padding: 10 70px;
+        border-radius: 8px;
+        text-align: center;
+        margin-left: 80px;
+    }
+
+    button {
+        font-size: 12px;
+        padding: 7px 30px;
+        border-radius: 8px;
+        align-items: center;
+        margin-right: 68px;
+    }
+    
+
+    .footer {
+        font-size: 10px;
+        text-align: center;
+    }
+}
